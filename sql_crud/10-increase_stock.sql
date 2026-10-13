@@ -1,0 +1,1 @@
+UPDATE books SET book_stock = book_stock + 3 WHERE stock < 5;

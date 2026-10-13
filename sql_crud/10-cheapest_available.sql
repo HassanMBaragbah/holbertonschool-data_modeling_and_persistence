@@ -1,0 +1,1 @@
+SELECT title, price FROM books ASC LIMIT 4 WHERE stock > 0;
