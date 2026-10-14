@@ -1,4 +1,4 @@
 SELECT students.name AS student_name, courses.title AS course_name FROM students
 INNER JOIN enrollments ON students.id = enrollments.student_id
-INNER JOIN courses ON enrollment.course_id = courses.id
+INNER JOIN courses ON enrollments.course_id = courses.id
 ORDER BY students.name, courses.title;
